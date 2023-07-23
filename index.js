@@ -32,6 +32,7 @@ async function run() {
 
         const collegesCollection = client.db('campusLink').collection('colleges')
         const applicationCollection = client.db('campusLink').collection('applications')
+        const usersCollection = client.db('campusLink').collection('users')
 
         app.get('/colleges', async (req, res) => {
             const result = await collegesCollection.find().toArray()
@@ -76,6 +77,21 @@ async function run() {
                 res.send({ applied: true })
             }
         })
+
+        app.post('/user', async (req, res) => {
+            const user = req.body;
+            const isUser = await usersCollection.findOne({ email: user.email })
+            console.log(isUser);
+            if (!isUser) {
+                const result = await usersCollection.insertOne(user)
+                res.send(result)
+            }
+            else {
+                res.send({ alreadyUser: true })
+            }
+        })
+
+
 
         // Send a ping to confirm a successful connection
         await client.db("admin").command({ ping: 1 });
