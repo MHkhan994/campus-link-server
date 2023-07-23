@@ -1,0 +1,519 @@
+[
+    {
+        "name": "Evergreen University",
+        "image": "https://i.ibb.co/HKfD0mp/porter-raab-gnj9vj-FRY-unsplash.jpg",
+        "admissionDate": "Fall 2023: Applications open from July 1st to August 15th",
+        "events": [
+            {
+                "id": "e1ab43",
+                "name": "Orientation Day",
+                "date": "September 1st, 2023",
+                "location": "Campus Auditorium"
+            },
+            {
+                "id": "72cdfe",
+                "name": "Sports Meet",
+                "date": "October 10th, 2023",
+                "location": "University Stadium"
+            },
+            {
+                "id": "f9a21c",
+                "name": "Annual Research Symposium",
+                "date": "November 20th-22nd, 2023",
+                "location": "Conference Hall"
+            }
+        ],
+        "subjects": [
+            "Arts and Humanities",
+            "Business and Economics",
+            "Engineering",
+            "Natural Sciences",
+            "Social Sciences"
+        ],
+        "sports": [
+            "Football",
+            "Basketball",
+            "Volleyball",
+            "Tennis",
+            "Track and Field"
+        ],
+        "overview": "Evergreen University is a leading institution known for its academic excellence. We offer a wide range of undergraduate and graduate programs, fostering a dynamic learning environment. Our dedicated faculty and cutting-edge research initiatives make us a top choice for students seeking comprehensive education.",
+        "admissionProcess": "Admission to Evergreen University is highly competitive. Applicants are evaluated based on their academic records, extracurricular achievements, recommendation letters, and personal statements. Shortlisted candidates will be invited for an interview to assess their passion for learning and alignment with the university's values.",
+        "researchWorks": [
+            "Sustainable Development and Green Initiatives in Urban Environments",
+            "Exploring Biodiversity and Conservation Strategies in Tropical Rainforests",
+            "Advancements in Artificial Intelligence for Healthcare Diagnosis"
+        ],
+        "facilities": "The campus offers state-of-the-art facilities, including well-equipped laboratories, modern classrooms, a comprehensive library, and recreational centers. Our student-centric approach ensures a holistic development experience for all students, fostering creativity and innovation.",
+        "contactInfo": {
+            "address": "456 University Avenue, City, Country",
+            "email": "info@evergreenuniversity.com",
+            "phone": "+1 (555) 123-4567"
+        },
+        "reviews": [
+            {
+                "id": "r39b7f",
+                "college": "Evergreen University",
+                "userName": "John Doe",
+                "reviewDate": "July 15th, 2023",
+                "rating": 4.8,
+                "comment": "Evergreen University provides a supportive learning environment."
+            },
+            {
+                "id": "r8x2p1",
+                "college": "Evergreen University",
+                "userName": "Jane Smith",
+                "reviewDate": "August 2nd, 2023",
+                "rating": 4.5,
+                "comment": "The campus is beautiful, and the faculty is knowledgeable."
+            },
+            {
+                "id": "r19k6t",
+                "college": "Evergreen University",
+                "userName": "Michael Brown",
+                "reviewDate": "September 5th, 2023",
+                "rating": 4.6,
+                "comment": "The university's campus is serene and conducive to learning."
+            }
+        ]
+    },
+    {
+        "name": "Stellar College of Science",
+        "image": "https://i.ibb.co/rsKTLNg/casey-olsen-Nl-Fy-PKx-XORo-unsplash.jpg",
+        "admissionDate": "Fall 2023: Applications open from June 15th to August 31st",
+        "subjects": [
+            "Physics",
+            "Chemistry",
+            "Biology",
+            "Mathematics",
+            "Astronomy",
+            "Computer Science"
+        ],
+        "events": [
+            {
+                "id": "g2hf17",
+                "name": "Welcome Week",
+                "date": "September 5th-10th, 2023",
+                "location": "Campus Grounds"
+            },
+            {
+                "id": "a9c35b",
+                "name": "Inter-College Science Fair",
+                "date": "October 20th, 2023",
+                "location": "Science Building"
+            }
+        ],
+        "sports": [
+            "Soccer",
+            "Basketball",
+            "Badminton",
+            "Swimming",
+            "Table Tennis"
+        ],
+        "overview": "Stellar College of Science is a prestigious institution dedicated to scientific excellence. Our rigorous programs in various scientific disciplines provide students with hands-on experiences and research opportunities. Our accomplished faculty and state-of-the-art laboratories ensure a transformational learning journey.",
+        "admissionProcess": "Admission to Stellar College of Science is based on academic merit and interviews. Prospective students are required to submit their academic transcripts, standardized test scores, recommendation letters, and a statement of purpose. Shortlisted candidates will be invited for an interview to assess their passion for science and their potential to contribute to cutting-edge research.",
+        "researchWorks": [
+            "Quantum Computing and Its Potential for Revolutionary Breakthroughs",
+            "Understanding Dark Matter: Unraveling the Mysteries of the Universe",
+            "Nanotechnology Applications in Medicine: Enhancing Drug Delivery Systems"
+        ],
+        "facilities": "The campus provides cutting-edge laboratories, modern classrooms, and a well-stocked library. Our commitment to innovation extends to research centers and collaborative spaces that foster interdisciplinary approaches to scientific advancements.",
+        "contactInfo": {
+            "address": "789 Science Street, City, Country",
+            "email": "info@stellarcollege.com",
+            "phone": "+1 (555) 987-6543"
+        },
+        "reviews": [
+            {
+                "id": "r6y9b2",
+                "college": "Stellar College of Science",
+                "userName": "Alex Johnson",
+                "reviewDate": "July 20th, 2023",
+                "rating": 4.7,
+                "comment": "The faculty at Stellar College is highly knowledgeable and supportive."
+            },
+            {
+                "id": "r2h5z8",
+                "college": "Stellar College of Science",
+                "userName": "Emily Adams",
+                "reviewDate": "August 8th, 2023",
+                "rating": 4.9,
+                "comment": "I had a fantastic academic experience at Stellar College of Science."
+            }
+        ]
+    },
+    {
+        "name": "Sunset Hills University",
+        "subjects": [
+            "Social Sciences",
+            "Business Administration",
+            "Education",
+            "Environmental Studies",
+            "Fine Arts"
+        ],
+        "image": "https://i.ibb.co/5v7QNpL/erika-fletcher-MZxqc6n9q-Cw-unsplash.jpg",
+        "admissionDate": "Fall 2023: Applications open from July 5th to August 25th",
+        "events": [
+            {
+                "id": "p8j2c9",
+                "name": "Welcome Carnival",
+                "date": "September 8th, 2023",
+                "location": "Campus Grounds"
+            },
+            {
+                "id": "q2m5x7",
+                "name": "Sports Tournament",
+                "date": "October 15th, 2023",
+                "location": "University Sports Complex"
+            },
+            {
+                "id": "r5y8b2",
+                "name": "Literary Festival",
+                "date": "November 18th-20th, 2023",
+                "location": "Library Hall"
+            }
+        ],
+        "sports": [
+            "Soccer",
+            "Basketball",
+            "Tennis",
+            "Swimming"
+        ],
+        "overview": "Sunset Hills University is renowned for its commitment to intellectual growth and personal development. We offer a diverse range of programs, empowering students to explore their passions and excel in their chosen fields. Our faculty members are dedicated mentors, guiding students through their academic journey.",
+        "admissionProcess": "Admission to Sunset Hills University involves a comprehensive assessment of each applicant's academic achievements, extracurricular engagement, personal statement, and letters of recommendation. Shortlisted candidates will be invited for an interview to assess their potential fit within the university's vibrant community.",
+        "researchWorks": [
+            "Climate Change and Sustainable Solutions for Urban Environments",
+            "Literary Criticism: Analyzing Classic and Contemporary Works",
+            "Exploring Sociopolitical Movements in Modern History"
+        ],
+        "facilities": "The university boasts modern classrooms, well-equipped laboratories, a vast library, and recreational facilities. We prioritize student well-being and foster an inclusive campus culture that encourages intellectual exploration and holistic growth.",
+        "contactInfo": {
+            "address": "234 University Road, City, Country",
+            "email": "info@sunsethillsuniversity.com",
+            "phone": "+1 (555) 789-0123"
+        },
+        "reviews": [
+            {
+                "id": "r5g7m9",
+                "college": "Sunset Hills University",
+                "userName": "Michael Brown",
+                "reviewDate": "September 5th, 2023",
+                "rating": 4.6,
+                "comment": "The university's campus is serene and conducive to learning."
+            },
+            {
+                "id": "r1v6z3",
+                "college": "Sunset Hills University",
+                "userName": "Sarah Thompson",
+                "reviewDate": "September 22nd, 2023",
+                "rating": 4.2,
+                "comment": "I enjoyed the diverse extracurricular activities offered at Sunset Hills."
+            }
+        ]
+    },
+    {
+        "name": "TechNova Institute",
+        "subjects": [
+            "Computer Science",
+            "Data Science",
+            "Artificial Intelligence",
+            "Information Technology",
+            "Web Development"
+        ],
+        "image": "https://i.ibb.co/bs5Kpqt/sangga-rima-roman-selia-Ljbj-We-XRbs0-unsplash.jpg",
+        "admissionDate": "Fall 2023: Applications open from July 10th to August 20th",
+        "events": [
+            {
+                "id": "t3r7g8",
+                "name": "Tech Expo",
+                "date": "September 15th-17th, 2023",
+                "location": "Tech Arena"
+            },
+            {
+                "id": "b2y6n4",
+                "name": "Hackathon",
+                "date": "October 25th, 2023",
+                "location": "Innovation Hub"
+            }
+        ],
+        "sports": [
+            "Esports",
+            "Table Tennis",
+            "Chess",
+            "Swimming"
+        ],
+        "overview": "TechNova Institute is a hub for innovation and technology. We offer specialized programs that equip students with cutting-edge skills to thrive in the digital age. Our esteemed faculty comprises industry experts who mentor students through practical projects and research, preparing them for impactful careers.",
+        "admissionProcess": "Admission to TechNova Institute evaluates applicants based on their academic background, technological aptitude, project portfolio, and a statement of purpose. Shortlisted candidates will be invited for an interview to assess their passion for technology and problem-solving abilities.",
+        "researchWorks": [
+            "Artificial Intelligence in Smart Cities: Enhancing Urban Living",
+            "Cybersecurity in the Era of IoT: Safeguarding Digital Infrastructure",
+            "Virtual Reality and Immersive Technologies: Transforming User Experiences"
+        ],
+        "facilities": "The institute provides state-of-the-art labs, collaborative spaces, and cutting-edge equipment to foster a dynamic learning environment. Our innovation labs and maker spaces encourage students to experiment, innovate, and develop novel solutions.",
+        "contactInfo": {
+            "address": "567 Tech Street, City, Country",
+            "email": "info@technovainstitute.com",
+            "phone": "+1 (555) 456-7890"
+        },
+        "reviews": [
+            {
+                "id": "r7t5k1",
+                "college": "TechNova Institute",
+                "userName": "James Harris",
+                "reviewDate": "July 30th, 2023",
+                "rating": 4.7,
+                "comment": "TechNova's curriculum is up-to-date and prepares students for real-world challenges."
+            },
+            {
+                "id": "r2f8n4",
+                "college": "TechNova Institute",
+                "userName": "Sophia Lewis",
+                "reviewDate": "August 18th, 2023",
+                "rating": 4.5,
+                "comment": "The campus environment is friendly, fostering collaboration among students."
+            }
+        ]
+    },
+    {
+        "name": "Oceanview Maritime Academy",
+        "subjects": [
+            "Marine Biology",
+            "Marine Engineering",
+            "Navigation and Seamanship",
+            "Maritime Law"
+        ],
+        "image": "https://i.ibb.co/QbkQRBP/rosy-ko-I4w7-Fvi-E478-unsplash.jpg",
+        "admissionDate": "Fall 2023: Applications open from July 5th to August 30th",
+        "events": [
+            {
+                "id": "n6h8b2",
+                "name": "Maritime Day",
+                "date": "September 5th, 2023",
+                "location": "Marina"
+            },
+            {
+                "id": "c4e9t7",
+                "name": "Boat Race",
+                "date": "October 15th, 2023",
+                "location": "Oceanfront"
+            }
+        ],
+        "sports": [
+            "Sailing",
+            "Swimming",
+            "Kayaking"
+        ],
+        "overview": "Oceanview Maritime Academy is a leading institution for maritime education and training. Our programs prepare students for successful careers in the maritime industry, covering navigation, marine engineering, and maritime law. We boast a strong alumni network and industry partnerships for excellent career prospects.",
+        "admissionProcess": "Admission to Oceanview Maritime Academy involves assessment of applicants' academic records, physical fitness, and passion for maritime careers. Shortlisted candidates will participate in a personal interview and medical examination to ensure they are fit for a seafaring profession.",
+        "researchWorks": [
+            "Marine Conservation: Preserving Ocean Ecosystems",
+            "Advancements in Ship Propulsion Technologies",
+            "Navigational Safety and Collision Avoidance Systems"
+        ],
+        "facilities": "The academy has comprehensive training facilities, including simulator rooms, ship labs, and navigation equipment. Our on-campus accommodation ensures a conducive learning environment for cadets, fostering camaraderie and teamwork.",
+        "contactInfo": {
+            "address": "123 Maritime Avenue, City, Country",
+            "email": "info@oceanviewmaritime.com",
+            "phone": "+1 (555) 234-5678"
+        },
+        "reviews": [
+            {
+                "id": "r9y5g2",
+                "college": "Oceanview Maritime Academy",
+                "userName": "David Lee",
+                "reviewDate": "July 25th, 2023",
+                "rating": 4.8,
+                "comment": "The practical training at Oceanview is exceptional, preparing us for real-life challenges at sea."
+            },
+            {
+                "id": "r4h7v9",
+                "college": "Oceanview Maritime Academy",
+                "userName": "Olivia Williams",
+                "reviewDate": "August 10th, 2023",
+                "rating": 4.6,
+                "comment": "The academy offers a holistic approach to maritime education, shaping well-rounded professionals."
+            }
+        ]
+    },
+    {
+        "name": "EcoVista University",
+        "subjects": [
+            "Environmental Science",
+            "Sustainability Studies",
+            "Renewable Energy",
+            "Conservation Biology"
+        ],
+        "image": "https://i.ibb.co/Yf43bkj/michael-marsh-U0d-BV-Qei-Yk-unsplash.jpg",
+        "admissionDate": "Fall 2023: Applications open from July 10th to August 25th",
+        "events": [
+            {
+                "id": "p5k7g9",
+                "name": "Eco-Fest",
+                "date": "September 12th-15th, 2023",
+                "location": "Eco Park"
+            },
+            {
+                "id": "m3v8x2",
+                "name": "Nature Walk",
+                "date": "October 22nd, 2023",
+                "location": "Botanical Gardens"
+            }
+        ],
+        "sports": [
+            "Hiking",
+            "Cycling",
+            "Yoga"
+        ],
+        "overview": "EcoVista University is dedicated to environmental sustainability and green education. Our interdisciplinary programs emphasize ecological conservation and sustainable practices. Our students become eco-conscious leaders, contributing to a greener planet and fostering positive change.",
+        "admissionProcess": "Admission to EcoVista University considers applicants' academic records, passion for environmental causes, and commitment to sustainability. Shortlisted candidates will participate in group discussions and interviews to assess their alignment with the university's eco-centric vision.",
+        "researchWorks": [
+            "Renewable Energy Solutions: Harnessing Solar and Wind Power",
+            "Biodiversity Hotspots and Conservation Efforts",
+            "Sustainable Agriculture and Food Security"
+        ],
+        "facilities": "The campus is designed with sustainability in mind, featuring eco-friendly buildings, solar panels, and rainwater harvesting. Our gardens and green spaces provide a serene backdrop for learning and fostering a connection with nature.",
+        "contactInfo": {
+            "address": "789 Eco Avenue, City, Country",
+            "email": "info@ecovistauniversity.com",
+            "phone": "+1 (555) 567-1234"
+        },
+        "reviews": [
+            {
+                "id": "r2h8j5",
+                "college": "EcoVista University",
+                "userName": "Sophie Turner",
+                "reviewDate": "August 5th, 2023",
+                "rating": 4.7,
+                "comment": "EcoVista's mission to protect the environment resonates with me."
+            },
+            {
+                "id": "r7u9m3",
+                "college": "EcoVista University",
+                "userName": "Liam Johnson",
+                "reviewDate": "September 15th, 2023",
+                "rating": 4.5,
+                "comment": "The campus is a paradise for nature enthusiasts and advocates."
+            }
+        ]
+    },
+    {
+        "name": "Innovatech Institute",
+        "subjects": [
+            "Music Theory",
+            "Composition",
+            "Performance (Voice)",
+            "Performance (Instruments)",
+            "Music Education"
+        ],
+        "image": "https://i.ibb.co/k1CZPj1/porter-raab-Ucr4-Yp-t364-unsplash.jpg",
+        "admissionDate": "Fall 2023: Applications open from July 8th to August 30th",
+        "events": [
+            {
+                "id": "i7t9p2",
+                "name": "Tech Symposium",
+                "date": "September 10th-12th, 2023",
+                "location": "Tech Auditorium"
+            },
+            {
+                "id": "f3r5k8",
+                "name": "Startup Showcase",
+                "date": "October 18th, 2023",
+                "location": "Innovation Hub"
+            }
+        ],
+        "sports": [
+            "Esports",
+            "Table Tennis",
+            "Chess",
+            "Swimming"
+        ],
+        "overview": "Innovatech Institute is at the forefront of technology and innovation. Our programs empower students with critical thinking and problem-solving skills. We encourage entrepreneurship and creativity, nurturing future tech leaders and disruptors.",
+        "admissionProcess": "Admission to Innovatech Institute evaluates applicants based on their academic records, technological aptitude, project portfolio, and a statement of purpose. Shortlisted candidates will be invited for an interview to assess their passion for technology and potential to drive innovation.",
+        "researchWorks": [
+            "Artificial Intelligence in Smart Cities: Enhancing Urban Living",
+            "Cybersecurity in the Era of IoT: Safeguarding Digital Infrastructure",
+            "Virtual Reality and Immersive Technologies: Transforming User Experiences"
+        ],
+        "facilities": "The institute provides state-of-the-art labs, collaborative spaces, and cutting-edge equipment to foster a dynamic learning environment. Our innovation labs and maker spaces encourage students to experiment, innovate, and develop novel solutions.",
+        "contactInfo": {
+            "address": "456 Tech Boulevard, City, Country",
+            "email": "info@innovatech.edu",
+            "phone": "+1 (555) 678-1234"
+        },
+        "reviews": [
+            {
+                "id": "r3g8m2",
+                "college": "Innovatech Institute",
+                "userName": "Mark Roberts",
+                "reviewDate": "August 1st, 2023",
+                "rating": 4.9,
+                "comment": "Innovatech fosters a culture of innovation and entrepreneurial spirit."
+            },
+            {
+                "id": "r6j4z2",
+                "college": "Innovatech Institute",
+                "userName": "Emma Davis",
+                "reviewDate": "September 12th, 2023",
+                "rating": 4.6,
+                "comment": "The faculty at Innovatech are pioneers in their respective fields."
+            }
+        ]
+    },
+    {
+        "name": "Liberty College of Arts",
+        "image": "https://i.ibb.co/rtHQC4x/sangga-rima-roman-selia-bg-Qg-AKag-QB4-unsplash.jpg",
+        "admissionDate": "Fall 2023: Applications open from July 12th to August 20th",
+        "events": [
+            {
+                "id": "l3y9b5",
+                "name": "Art Exhibition",
+                "date": "September 10th-15th, 2023",
+                "location": "Art Gallery"
+            },
+            {
+                "id": "a7r5t2",
+                "name": "Literary Festival",
+                "date": "October 22nd, 2023",
+                "location": "Auditorium"
+            }
+        ],
+        "sports": [
+            "Football",
+            "Basketball",
+            "Volleyball",
+            "Badminton",
+            "Table Tennis"
+        ],
+        "overview": "Liberty College of Arts is a nurturing space for aspiring artists and creative minds. Our programs blend artistic theory with practical skills, empowering students to express themselves through various art forms. We foster a vibrant artistic community that encourages exploration and self-discovery.",
+        "admissionProcess": "Admission to Liberty College of Arts evaluates applicants based on their artistic portfolio, essays, and letters of recommendation. Shortlisted candidates will participate in creative workshops and interviews to assess their passion for arts and commitment to artistic expression.",
+        "researchWorks": [
+            "Expressionism: Unleashing Emotions through Art",
+            "Cultural Diversity in Contemporary Art",
+            "Reviving Ancient Art Techniques for Modern Creations"
+        ],
+        "facilities": "The college houses spacious art studios, fully-equipped workshops, and exhibition spaces. Our campus promotes creativity and artistic collaboration, providing a stimulating environment for artistic growth.",
+        "contactInfo": {
+            "address": "789 Art Street, City, Country",
+            "email": "info@libertycollegeofarts.com",
+            "phone": "+1 (555) 345-6789"
+        },
+        "reviews": [
+            {
+                "id": "r9z4h7",
+                "college": "Liberty College of Arts",
+                "userName": "Isabella Clark",
+                "reviewDate": "August 8th, 2023",
+                "rating": 4.7,
+                "comment": "The faculty's guidance has been invaluable in refining my artistic skills."
+            },
+            {
+                "id": "r5v8h2",
+                "college": "Liberty College of Arts",
+                "userName": "Andrew Turner",
+                "reviewDate": "September 18th, 2023",
+                "rating": 4.5,
+                "comment": "Liberty College encourages artistic freedom and experimentation."
+            }
+        ]
+    }
+]

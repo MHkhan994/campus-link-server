@@ -31,6 +31,7 @@ async function run() {
 
 
         const collegesCollection = client.db('campusLink').collection('colleges')
+        const applicationCollection = client.db('campusLink').collection('applications')
 
         app.get('/colleges', async (req, res) => {
             const result = await collegesCollection.find().toArray()
@@ -49,6 +50,31 @@ async function run() {
             const regex = new RegExp(text.text, "i")
             const result = await collegesCollection.find({ name: regex }).toArray()
             res.send(result)
+        })
+
+        app.post('/application', async (req, res) => {
+            const data = req.body
+            const result = await applicationCollection.insertOne(data)
+            res.send(result)
+        })
+
+        app.get('/applications', async (req, res) => {
+            const email = req.query.email
+            console.log(email);
+            const result = await applicationCollection.find({ email: email }).toArray()
+            res.send(result)
+        })
+
+        app.patch('/appliedOrNot', async (req, res) => {
+            const data = req.body
+            const result = await applicationCollection.findOne({ collegeId: data.id }, { email: data.email })
+            console.log(result);
+            if (result === null) {
+                res.send({ applied: false })
+            }
+            else {
+                res.send({ applied: true })
+            }
         })
 
         // Send a ping to confirm a successful connection
