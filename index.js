@@ -34,6 +34,7 @@ async function run() {
         const applicationCollection = client.db('campusLink').collection('applications')
         const usersCollection = client.db('campusLink').collection('users')
         const galleryCollection = client.db('campusLink').collection('gallery')
+        const researchCollection = client.db('campusLink').collection('research')
 
         app.get('/colleges', async (req, res) => {
             const result = await collegesCollection.find().toArray()
@@ -107,6 +108,18 @@ async function run() {
         app.get('/gallery', async (req, res) => {
             const result = await galleryCollection.find().toArray()
             res.send(result)
+        })
+
+        app.get('/research', async (req, res) => {
+            const sliceNum = req.query.slice;
+            if (sliceNum === 0) {
+                const result = await researchCollection.find().toArray()
+                res.send(result)
+            }
+            else {
+                const result = await researchCollection.find().limit(parseInt(sliceNum)).toArray()
+                res.send(result)
+            }
         })
 
 
