@@ -73,7 +73,7 @@ async function run() {
 
         app.patch('/appliedOrNot', async (req, res) => {
             const data = req.body
-            const result = await applicationCollection.findOne({ collegeId: data.id }, { email: data.email })
+            const result = await applicationCollection.findOne({ collegeId: data.id, email: data.email })
             console.log(result);
             if (result === null) {
                 res.send({ applied: false })
