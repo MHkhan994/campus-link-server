@@ -26,8 +26,6 @@ const client = new MongoClient(uri, {
 
 async function run() {
     try {
-        // Connect the client to the server	(optional starting in v4.7)
-        await client.connect();
 
 
         const collegesCollection = client.db('campusLink').collection('colleges')
@@ -35,7 +33,10 @@ async function run() {
         const usersCollection = client.db('campusLink').collection('users')
         const galleryCollection = client.db('campusLink').collection('gallery')
         const researchCollection = client.db('campusLink').collection('research')
+        const reviwesCollection = client.db('campusLink').collection('reviews')
 
+
+        //===========================colleges==============================
         app.get('/colleges', async (req, res) => {
             const result = await collegesCollection.find().toArray()
             res.send(result)
@@ -55,6 +56,8 @@ async function run() {
             res.send(result)
         })
 
+
+        // ======================application===================================
         app.post('/application', async (req, res) => {
             const data = req.body
             const result = await applicationCollection.insertOne(data)
@@ -80,6 +83,8 @@ async function run() {
             }
         })
 
+
+        // ================================users======================================
         app.post('/user', async (req, res) => {
             const user = req.body;
             const isUser = await usersCollection.findOne({ email: user.email })
@@ -105,11 +110,15 @@ async function run() {
             res.send(result)
         })
 
+
+        // =============================gallery============================
         app.get('/gallery', async (req, res) => {
             const result = await galleryCollection.find().toArray()
             res.send(result)
         })
 
+
+        // ========================research===========================
         app.get('/research', async (req, res) => {
             const sliceNum = req.query.slice;
             if (sliceNum === 0) {
@@ -120,6 +129,12 @@ async function run() {
                 const result = await researchCollection.find().limit(parseInt(sliceNum)).toArray()
                 res.send(result)
             }
+        })
+
+        //==========================reviews=========================
+        app.get('/reviews', async (req, res) => {
+            const result = await reviwesCollection.find().toArray()
+            res.send(result)
         })
 
 
