@@ -33,6 +33,7 @@ async function run() {
         const collegesCollection = client.db('campusLink').collection('colleges')
         const applicationCollection = client.db('campusLink').collection('applications')
         const usersCollection = client.db('campusLink').collection('users')
+        const galleryCollection = client.db('campusLink').collection('gallery')
 
         app.get('/colleges', async (req, res) => {
             const result = await collegesCollection.find().toArray()
@@ -91,6 +92,22 @@ async function run() {
             }
         })
 
+        app.get('/user', async (req, res) => {
+            const email = req.query.email;
+            const result = await usersCollection.findOne({ email: email })
+            res.send(result)
+        })
+
+        app.patch('/updateUser', async (req, res) => {
+            const user = req.body
+            const result = await usersCollection.replaceOne({ email: user.email }, user)
+            res.send(result)
+        })
+
+        app.get('/gallery', async (req, res) => {
+            const result = await galleryCollection.find().toArray()
+            res.send(result)
+        })
 
 
         // Send a ping to confirm a successful connection
